@@ -7,7 +7,7 @@ def unzip_file(zip_file):
 
 if __name__ == "__main__":
     current_directory = os.path.dirname(os.path.abspath(__file__))
-    zip_file = os.path.join(current_directory, "stocks-main.zip")  # Replace with your zip file name
+    zip_file = os.path.join(current_directory, "WEBP-20240705T193155Z-001.zip")  # Replace with your zip file name
     
     try:
         unzip_file(zip_file)
